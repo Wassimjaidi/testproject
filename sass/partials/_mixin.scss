@@ -1,0 +1,16 @@
+@mixin marginTopX($val,$b){
+	margin-top: $val;
+	float: left;
+	width: $b;
+}
+@mixin mumixin{
+	line-height: 1;
+	border: none;
+}
+@mixin test($val){
+	@if $val  == 1{
+		margin-top: 50px;
+	} @else {
+		margin-bottom: 50px;
+	}
+}

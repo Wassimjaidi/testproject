@@ -1,0 +1,34 @@
+@import'../import/variables.scss';
+@import'../import/mixin.scss';
+body{
+  background-color:$clr-white;
+  h1{
+    color: $clr-yellow;
+    &:hover{
+      color:$clr-blue;
+    }
+  }
+}
+a {
+  color: $clr-blue;
+  &:hover{
+    color: $clr-yellow;
+  }
+}
+
+.padding-top-large{
+  padding-top: $padding-top-large;
+}
+
+
+.message{
+  border: 5px solid blue;
+  font-size: 15px - 3px;
+  color: #333;
+  background-color: red;
+  width: 600px / 960px * 100%;
+}
+#box{
+  color: #000;
+  @include border-radius (5px);
+}

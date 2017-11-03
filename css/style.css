@@ -1,0 +1,30 @@
+body {
+  background-color: #fff; }
+  body h1 {
+    color: yellow; }
+    body h1:hover {
+      color: blue; }
+
+a {
+  color: blue; }
+  a:hover {
+    color: yellow; }
+
+.padding-top-large {
+  padding-top: 50px; }
+
+.message {
+  border: 5px solid blue;
+  font-size: 12px;
+  color: #333;
+  background-color: red;
+  width: 62.5%; }
+
+#box {
+  color: #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
